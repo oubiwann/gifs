@@ -6,4 +6,4 @@ echo "Rebuilding site index ..."
 printf '*%.0s' {1..78}
 echo
 clj ./scripts/build-site-index
-./scripts/clean-history
+#./scripts/clean-history

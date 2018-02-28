@@ -1,3 +1,8 @@
+- title: a-draw.jpg
+  category: agreement
+  path: index/agreement/a-draw.jpg
+  tags: [agreement]
+  modified_time: 1519860274000
 - title: elephant-wave-bye.gif
   category: bye
   path: index/bye/elephant-wave-bye.gif
@@ -38,6 +43,11 @@
   path: index/confused/simon-cowel-glazed-look.gif
   tags: [confused]
   modified_time: 1519831063000
+- title: the-dude-confused.gif
+  category: confused
+  path: index/confused/the-dude-confused.gif
+  tags: [confused]
+  modified_time: 1519859486000
 - title: max-smart-confused.gif
   category: confused
   path: index/confused/max-smart-confused.gif
@@ -78,6 +88,11 @@
   path: index/dancing/stormtroopin.gif
   tags: [dancing]
   modified_time: 1519831064000
+- title: the-dude-movin-it.gif
+  category: dancing
+  path: index/dancing/the-dude-movin-it.gif
+  tags: [dancing]
+  modified_time: 1519859433000
 - title: tucker-chan-dance.gif
   category: dancing
   path: index/dancing/tucker-chan-dance.gif
@@ -238,6 +253,11 @@
   path: index/disgust/disgust-jony-depp.gif
   tags: [disgust]
   modified_time: 1519831064000
+- title: wasnt-listening.gif
+  category: distracted
+  path: index/distracted/wasnt-listening.gif
+  tags: [distracted]
+  modified_time: 1519859272000
 - title: squirrel-up-dog-gif_large.gif
   category: distracted
   path: index/distracted/squirrel-up-dog-gif_large.gif
@@ -288,6 +308,11 @@
   path: index/excited/anchorman-jump-in-air.gif
   tags: [excited]
   modified_time: 1519831064000
+- title: thats-my-money.gif
+  category: excited
+  path: index/excited/thats-my-money.gif
+  tags: [excited]
+  modified_time: 1519859924000
 - title: kip_yes.gif
   category: excited
   path: index/excited/kip_yes.gif
@@ -623,11 +648,21 @@
   path: index/mad/chris-farley.gif
   tags: [mad]
   modified_time: 1519831066000
+- title: bs.gif
+  category: mad
+  path: index/mad/bs.gif
+  tags: [mad]
+  modified_time: 1519860070000
 - title: conan-ragequit.gif
   category: mad
   path: index/mad/conan-ragequit.gif
   tags: [mad]
   modified_time: 1519831066000
+- title: quit.gif
+  category: mad
+  path: index/mad/quit.gif
+  tags: [mad]
+  modified_time: 1519860468000
 - title: tableflip.gif
   category: mad
   path: index/mad/tableflip.gif
@@ -718,6 +753,11 @@
   path: index/no/dikembe-mutumbo-nope.gif
   tags: ['no']
   modified_time: 1519831065000
+- title: ginny.gif
+  category: 'no'
+  path: index/no/ginny.gif
+  tags: ['no']
+  modified_time: 1519860684000
 - title: tsunami.gif
   category: 'no'
   path: index/no/tsunami.gif
@@ -788,6 +828,11 @@
   path: index/no/octo-nope-fast.gif
   tags: ['no']
   modified_time: 1391033033000
+- title: aggr-no-stand.gif
+  category: 'no'
+  path: index/no/aggr-no-stand.gif
+  tags: ['no']
+  modified_time: 1519859319000
 - title: nope-duck.gif
   category: 'no'
   path: index/no/nope-duck.gif
@@ -803,6 +848,16 @@
   path: index/oooh/picard-oooh.gif
   tags: [oooh]
   modified_time: 1519831063000
+- title: the-dude-happy.gif
+  category: oooh
+  path: index/oooh/the-dude-happy.gif
+  tags: [oooh]
+  modified_time: 1519859385000
+- title: deeds-crazy-eyes.gif
+  category: oooh
+  path: index/oooh/deeds-crazy-eyes.gif
+  tags: [oooh]
+  modified_time: 1519859770000
 - title: popcorn-eating.gif
   category: popcorn
   path: index/popcorn/popcorn-eating.gif
@@ -863,6 +918,11 @@
   path: index/sad/bugs-crying.gif
   tags: [sad]
   modified_time: 1519831063000
+- title: aurthur.gif
+  category: sad
+  path: index/sad/aurthur.gif
+  tags: [sad]
+  modified_time: 1519860228000
 - title: who-rain.gif
   category: sad
   path: index/sad/who-rain.gif
@@ -988,6 +1048,11 @@
   path: index/what/36-Friday-Damn.gif
   tags: [what]
   modified_time: 1519831065000
+- title: i-didnt-do-it.gif
+  category: what
+  path: index/what/i-didnt-do-it.gif
+  tags: [what]
+  modified_time: 1519859569000
 - title: Kramer-whaaa.gif
   category: what
   path: index/what/Kramer-whaaa.gif
@@ -1018,6 +1083,11 @@
   path: index/what/the-dude-what.gif
   tags: [what]
   modified_time: 1519831063000
+- title: you-dont-say.gif
+  category: what
+  path: index/what/you-dont-say.gif
+  tags: [what]
+  modified_time: 1425966757000
 - title: fresh-prince-omg.gif
   category: what
   path: index/what/fresh-prince-omg.gif
