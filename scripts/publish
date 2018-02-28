@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#git commit -a -m "Updated gifs."
+git commit -a --amend
+./scripts/rebuild
+
+printf '*%.0s' {1..78}
+echo
+echo "Publishing ..."
+printf '*%.0s' {1..78}
+echo
+git push origin gh-pages -f
+

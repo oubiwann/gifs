@@ -1,0 +1,41 @@
+#!/usr/local/bin/clj
+
+(require
+ '[cheshire.core :as json]
+ '[clojure.java.io :as io]
+ '[clojure.pprint :refer [pprint]]
+ '[clojure.string :as string]
+ '[yaml.core :as yaml])
+
+(def json-index "_includes/site-index.json")
+(def static-index "_data/static_files.yml")
+(def images-dir "index")
+
+(defn file?
+  [file]
+  (.isFile file))
+
+(defn get-file-data
+  [file]
+  (let [file-path (.getPath file)
+        category (second (string/split file-path #"/"))]
+    {:title (.getName file)
+     :category category
+     :path file-path
+     :tags [category] ; backwards compatibility
+     :modified_time (.lastModified file)}))
+
+(defn get-files
+  []
+  (->> images-dir
+       io/file
+       file-seq
+       (filter file?)
+       (map get-file-data)
+       (sort-by :category)))
+
+(def files (get-files))
+(println "Updating JSON index ...")
+(spit json-index (json/generate-string files))
+(println "Updating YAML index ...")
+(spit static-index (yaml/generate-string files))
